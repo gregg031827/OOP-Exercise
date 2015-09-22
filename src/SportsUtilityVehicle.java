@@ -1,13 +1,13 @@
 /**
  * Created by Gregg on 22/09/2015.
  */
-public class SUV extends Car implements CRV{
-    public SUV(String setColor, String setMake){
+public class SportsUtilityVehicle extends Car implements CarInterface{
+    public SportsUtilityVehicle(String setColor, String setMake){
         setColor(setColor);
         setMake(setMake);
 
     }
-    public SUV(){
+    public SportsUtilityVehicle(){
 
     }
 
